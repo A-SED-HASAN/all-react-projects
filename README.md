@@ -1,5 +1,8 @@
-# react-projects-7-slider
+# all react projects
 
-#### IN ACTION
 
-[Gatsby-Airtable Project](https://gatsby-airtable-design-project.netlify.app/)
+```
+blah
+blah
+blah
+```
