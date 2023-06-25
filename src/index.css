@@ -1,0 +1,197 @@
+/*
+=============== 
+Variables
+===============
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap');
+:root {
+  /* --primary-50: #ffffff;
+  --primary-100: #ffffff;
+  --primary-200: #ffffff;
+  --primary-300: #ffffff;
+  --primary-400: #ffffff; */
+  --primary-500: #e9f4ff;
+  --primary-600: #c4d9fc;
+  --primary-700: #9dc0fa;
+  --primary-800: #76a7f9;
+  --primary-900: #4f8ef7;
+  --primary-950: #3b82f6;
+
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+&::-webkit-scrollbar {
+  width: 0.5rem;
+}
+&::-webkit-scrollbar-thumb {
+  background-color: var(--primary-700);
+  border-radius: 50rem;
+}
+&::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-800);
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  background: var(--primary-500);
+  color: var(--clr-black);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--primary-800);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+/*  global classes */
+
+/* section */
+.section {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+/*
+=============== 
+All Project
+===============
+*/
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.title div {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  margin: auto;
+  background: var(--primary-950);
+}
+.title h1 {
+  font-weight: 100;
+}
+.container {
+  width: 99%;
+  margin: auto;
+  padding: 1rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem 1rem;
+}
+
+.card {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  border-radius: var(--radius);
+  transition: all 0.4s;
+  overflow: hidden;
+  position: relative;
+}
+article img {
+  width: 100%;
+  height: 90%;
+}
+footer {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+footer p {
+  font-size: 1.5rem;
+  color: var(--clr-black);
+}
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: var(--light-shadow);
+}
+
+.icon {
+  padding: 1rem;
+  font-size: 1rem;
+}
