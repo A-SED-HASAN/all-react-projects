@@ -12,6 +12,7 @@ import {
   news,
   github,
   microsoft,
+  picator,
 } from './Assets/image'
 
 import {
@@ -36,6 +37,7 @@ import {
   RiMovie2Fill,
   FiGithub,
   TiTickOutline,
+  FiImage,
 } from './Assets/icon'
 
 function App() {
@@ -186,8 +188,24 @@ function App() {
           name='microsoft todo'
           img={microsoft}
         />
-        <Card icon={<TiTickOutline />} to='#' name='store' img={microsoft} />
-        <Card icon={<TiTickOutline />} to='#' name='market' img={microsoft} />
+        <Card
+          icon={<FiImage />}
+          to='https://project-22-picator.netlify.app/'
+          name='picator'
+          img={picator}
+        />
+        <Card
+          icon={<TiTickOutline />}
+          to='#'
+          name='store'
+          img='https://i.pinimg.com/474x/70/9c/2f/709c2fb9d74ddc87ccab6eb4341f888e.jpg'
+        />
+        <Card
+          icon={<TiTickOutline />}
+          to='#'
+          name='market'
+          img='https://i.pinimg.com/474x/70/9c/2f/709c2fb9d74ddc87ccab6eb4341f888e.jpg'
+        />
       </div>
     </section>
   )

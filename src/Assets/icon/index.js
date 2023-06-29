@@ -17,7 +17,7 @@ import { SlNote } from 'react-icons/sl'
 import { BsEmojiSunglasses, BsMarkdown } from 'react-icons/bs'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import { RiMovie2Fill } from 'react-icons/ri'
-import { FiGithub } from 'react-icons/fi'
+import { FiGithub, FiImage } from 'react-icons/fi'
 import { TiTickOutline } from 'react-icons/ti'
 
 export {
@@ -42,4 +42,5 @@ export {
   RiMovie2Fill,
   FiGithub,
   TiTickOutline,
+  FiImage,
 }

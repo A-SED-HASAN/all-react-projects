@@ -8,6 +8,8 @@ import quiz from './quiz.png'
 import news from './news.png'
 import github from './github.png'
 import microsoft from './microsoft.png'
+import picator from './picator.png'
+
 export {
   navJpg,
   noteJpg,
@@ -19,4 +21,5 @@ export {
   news,
   github,
   microsoft,
+  picator,
 }
