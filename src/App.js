@@ -13,6 +13,7 @@ import {
   github,
   microsoft,
   picator,
+  wine,
 } from './Assets/image'
 
 import {
@@ -38,6 +39,7 @@ import {
   FiGithub,
   TiTickOutline,
   FiImage,
+  BiWine,
 } from './Assets/icon'
 
 function App() {
@@ -193,6 +195,12 @@ function App() {
           to='https://project-22-picator.netlify.app/'
           name='picator'
           img={picator}
+        />
+        <Card
+          icon={<BiWine />}
+          to='https://project-23-wine-finder.netlify.app/'
+          name='wine finder'
+          img={wine}
         />
         <Card
           icon={<TiTickOutline />}

@@ -6,7 +6,7 @@ import {
   MdOutlineLocalGroceryStore,
   MdOutlineQuiz,
 } from 'react-icons/md'
-import { BiTrip } from 'react-icons/bi'
+import { BiTrip, BiWine } from 'react-icons/bi'
 import { RiQuestionMark } from 'react-icons/ri'
 import { VscSymbolColor } from 'react-icons/vsc'
 import { SlMagnifier } from 'react-icons/sl'
@@ -43,4 +43,5 @@ export {
   FiGithub,
   TiTickOutline,
   FiImage,
+  BiWine,
 }

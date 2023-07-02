@@ -9,6 +9,7 @@ import news from './news.png'
 import github from './github.png'
 import microsoft from './microsoft.png'
 import picator from './picator.png'
+import wine from './wine.png'
 
 export {
   navJpg,
@@ -22,4 +23,5 @@ export {
   github,
   microsoft,
   picator,
+  wine,
 }
