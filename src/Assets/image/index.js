@@ -10,6 +10,7 @@ import github from './github.png'
 import microsoft from './microsoft.png'
 import picator from './picator.png'
 import wine from './wine.png'
+import sudoku from './sudoku.png'
 
 export {
   navJpg,
@@ -24,4 +25,5 @@ export {
   microsoft,
   picator,
   wine,
+  sudoku,
 }

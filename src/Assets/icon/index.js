@@ -14,12 +14,11 @@ import { TfiLayoutSlider } from 'react-icons/tfi'
 import { FcTodoList } from 'react-icons/fc'
 import { HiBars3 } from 'react-icons/hi2'
 import { SlNote } from 'react-icons/sl'
-import { BsEmojiSunglasses, BsMarkdown } from 'react-icons/bs'
+import { BsEmojiSunglasses, BsMarkdown, BsGrid3X3 } from 'react-icons/bs'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import { RiMovie2Fill } from 'react-icons/ri'
 import { FiGithub, FiImage } from 'react-icons/fi'
 import { TiTickOutline } from 'react-icons/ti'
-
 export {
   FaBirthdayCake,
   FaRegNewspaper,
@@ -44,4 +43,5 @@ export {
   TiTickOutline,
   FiImage,
   BiWine,
+  BsGrid3X3,
 }

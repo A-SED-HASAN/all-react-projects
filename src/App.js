@@ -14,6 +14,7 @@ import {
   microsoft,
   picator,
   wine,
+  sudoku,
 } from './Assets/image'
 
 import {
@@ -40,6 +41,7 @@ import {
   TiTickOutline,
   FiImage,
   BiWine,
+  BsGrid3X3,
 } from './Assets/icon'
 
 function App() {
@@ -201,6 +203,12 @@ function App() {
           to='https://project-23-wine-finder.netlify.app/'
           name='wine finder'
           img={wine}
+        />
+        <Card
+          icon={<BsGrid3X3 />}
+          to='https://project-24-sudoku.netlify.app/'
+          name='sudoku'
+          img={sudoku}
         />
         <Card
           icon={<TiTickOutline />}
