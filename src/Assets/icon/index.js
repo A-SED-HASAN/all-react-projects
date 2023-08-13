@@ -6,7 +6,7 @@ import {
   MdOutlineLocalGroceryStore,
   MdOutlineQuiz,
 } from 'react-icons/md'
-import { BiTrip, BiWine } from 'react-icons/bi'
+import { BiTrip, BiWine, BiDollar } from 'react-icons/bi'
 import { RiQuestionMark } from 'react-icons/ri'
 import { VscSymbolColor } from 'react-icons/vsc'
 import { SlMagnifier } from 'react-icons/sl'
@@ -19,6 +19,7 @@ import { IoGameControllerOutline } from 'react-icons/io5'
 import { RiMovie2Fill } from 'react-icons/ri'
 import { FiGithub, FiImage } from 'react-icons/fi'
 import { TiTickOutline } from 'react-icons/ti'
+
 export {
   FaBirthdayCake,
   FaRegNewspaper,
@@ -44,4 +45,5 @@ export {
   FiImage,
   BiWine,
   BsGrid3X3,
+  BiDollar,
 }

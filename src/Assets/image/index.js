@@ -11,6 +11,7 @@ import microsoft from './microsoft.png'
 import picator from './picator.png'
 import wine from './wine.png'
 import sudoku from './sudoku.png'
+import everyDollar from './everyDollar.png'
 
 export {
   navJpg,
@@ -26,4 +27,5 @@ export {
   picator,
   wine,
   sudoku,
+  everyDollar,
 }

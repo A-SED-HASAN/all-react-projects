@@ -15,6 +15,7 @@ import {
   picator,
   wine,
   sudoku,
+  everyDollar,
 } from './Assets/image'
 
 import {
@@ -42,6 +43,7 @@ import {
   FiImage,
   BiWine,
   BsGrid3X3,
+  BiDollar,
 } from './Assets/icon'
 
 function App() {
@@ -209,6 +211,12 @@ function App() {
           to='https://project-24-sudoku.netlify.app/'
           name='sudoku'
           img={sudoku}
+        />
+        <Card
+          icon={<BiDollar />}
+          to='https://project-25-every-dollar.netlify.app/'
+          name='every dollar'
+          img={everyDollar}
         />
         <Card
           icon={<TiTickOutline />}
